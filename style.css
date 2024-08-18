@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+
+#button{
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    display: block;
+    background-color: black;
+    color: white;
+}
+
+h1{
+    background-color: black;
+    color: azure;
+    height: 5rem;
+    text-align: center;
+    line-height: 5rem;
+}
+
+.choice{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+img{
+    height: 115px;
+    width: 115px;
+    object-fit: cover;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover{
+    cursor: pointer;
+    background-color: black;
+   
+    
+}
+
+.msg-container {
+    margin-top: 5rem;
+  }
+
+  #msg {
+    background-color: #081b31;
+    color: #fff;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+
+
+.choices{
+    display:flex;
+    justify-content: center;
+    /* align item smj ni aaya kuch fark hi ni padra h ispe toh */
+    align-items: center;   
+    gap: 2rem;
+    margin-top: 5rem;
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+}
+
+#You,#comp
+{
+    font-size: 4rem;
+}
